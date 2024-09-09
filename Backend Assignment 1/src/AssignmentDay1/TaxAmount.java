@@ -10,7 +10,7 @@ public class TaxAmount {
         int taxPercentage = 20;
         int taxAmount;
 
-        taxAmount = (20*85000)/100;
+        taxAmount = (taxPercentage*salary)/100;
         System.out.println("Tax Amount: " + taxAmount);
     }
 }

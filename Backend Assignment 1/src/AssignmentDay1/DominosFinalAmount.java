@@ -10,7 +10,7 @@ public class DominosFinalAmount {
         int discountPercentage = 20;
         double finalBillAmount ;
 
-        finalBillAmount = (2 * pizzaCost) - ((20* 2 * pizzaCost)/100);
-        System.out.println("Final Bill Amount" + finalBillAmount);
+        finalBillAmount = (2 * pizzaCost) - ((discountPercentage* 2 * pizzaCost)/100);
+        System.out.println("Final Bill Amount " + finalBillAmount);
     }
 }

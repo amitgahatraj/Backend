@@ -10,7 +10,7 @@ public class CalculateFinalPlanCost {
         int gst = 18;
         int finalCost;
 
-        finalCost = silverPlanCost + ((18 * silverPlanCost)/100);
+        finalCost = silverPlanCost + ((gst * silverPlanCost)/100);
         System.out.println("Final Cost: " + finalCost);
     }
 }
